@@ -33,7 +33,7 @@
 从文件bus.txt读入公交路线方式。
 从文件xiaoxue.txt读入路线序号。
 从文件mingcheng.txt读入各站点的中文名称。
-
+### 将files文件夹下文件放在D盘根目录下
 ## 3.输出数据
 输出路线信息，包括各换乘站以及相应的公交方式。
 
@@ -89,5 +89,12 @@ void main(){
 
 ## 功能展示
 1)从北大到人大耗时最短路径：
+![image](https://github.com/Haitons/BusWay/raw/master/img-folder/a.png)
+
 1)从北大到中国传媒大学费用最少路径：
-1)从北大到人大耗时最短路径：
+![image](https://github.com/Haitons/BusWay/raw/master/img-folder/b.png)
+
+1)从北工大到北航换乘次数最少路径：
+![image](https://github.com/Haitons/BusWay/raw/master/img-folder/c.png)
+
+
