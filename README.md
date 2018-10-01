@@ -91,10 +91,10 @@ void main(){
 1)从北大到人大耗时最短路径：
 ![image](https://github.com/Haitons/BusWay/raw/master/img-folder/a.png)
 
-1)从北大到中国传媒大学费用最少路径：
+2)从北大到中国传媒大学费用最少路径：
 ![image](https://github.com/Haitons/BusWay/raw/master/img-folder/b.png)
 
-1)从北工大到北航换乘次数最少路径：
+3)从北工大到北航换乘次数最少路径：
 ![image](https://github.com/Haitons/BusWay/raw/master/img-folder/c.png)
 
 ## PS：
