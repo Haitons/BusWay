@@ -49,37 +49,40 @@ DOS输出路线信息
 ## 6.数据结构设计
 ### 建立图的存储结构
 定义交通图的存储结构。用邻接矩阵来表示图是唯一的。需要用一个二维数组存储顶点之间相邻关系的邻接矩阵，并且还需要用一个具有n个元素的一维数组来存储顶点信息。下标为i的元素存储顶点V[i]的信息。 
-
-`typedef struct{
+```
+typedef struct{
 	char s[100][20];//存储顶点信息,char型
 	int vexs[100];//顶点数组，int型
 	int arcs[100][100];//邻接矩阵,int型
 int num[1000][1000];//邻接矩阵的序号,int型
-}MGraph;`
-
+}MGraph;
+```
 ### 定义边的数据结构
 两个节点之间有一条边，用一维数组存储边的序号，并用一个二维数组存储边的信息。
-
-`typedef struct{
+```
+typedef struct{
 	char s[1000][1000];//存储边的信息
 	int shuliang[1000];//存储边的序号
-}Side;`
-
+}Side;
+```
 ### 程序整体结构
 根据文件里的信息用邻接矩阵建立图的存储结构，分别建立时间无向图、费用无向图、步行距离无向图、换乘无向图。根据用户输入的起始站与终点站。使用FLOYD算法求出最优路径，将值存入数组，并输出相应的站点与公交出行方式。
 ### 各模块的功能描述
-
-`void CreateMGraph(MGraph * G, Side*E, int n, int e){
+```
+void CreateMGraph(MGraph * G, Side*E, int n, int e){
  //根据节点与边的信息建立带权无向图
-}`
-
-`void Floyd(MGraph *G, int n){
+}
+```
+```
+void Floyd(MGraph *G, int n){
 //用FLOYD算法求出最优路径
-}`
-
-`void main(){
+}
+```
+```
+void main(){
 //主函数，读取文件，建立存储结构，进行选择输入输出
-}`
+}
+```
 
 ## 程序界面
 ![image](https://github.com/Haitons/BusWay/raw/master/img-folder/e.png)
