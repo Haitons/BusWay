@@ -97,4 +97,7 @@ void main(){
 1)从北工大到北航换乘次数最少路径：
 ![image](https://github.com/Haitons/BusWay/raw/master/img-folder/c.png)
 
+## PS：
+自己做的第一个工程，当时连图形界面都没弄出来...回顾了一下，太菜了....
+### 2015.11
 
